@@ -1,0 +1,309 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     margin: 0 auto
+    
+ }
+ a {
+     text-decoration: none;
+     color: white;
+ }
+ html {
+    font-family: 'Texturina', serif;
+}
+/* Navbar Section */
+#navbar {
+    color: rgb(0, 0, 0);  
+    padding: 0.50rem 0.75rem;
+    height: auto;
+
+}
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#navbar ul li a:hover {
+    background: #E1A843;
+    border-radius: 30px ;
+    padding: 0rem 0.4rem;
+    color: black;
+}
+/* Home Section */
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: white;
+
+}
+#home .name p{
+    font-family: 'Architects Daughter', cursive;
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+/*#home img{
+  display: flex;
+  justify-items: left;
+  
+}*/
+.img{
+    flex-direction: row;
+    display: flex;
+    
+
+}
+
+#fotobir{
+    float: left;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#fotoiki{
+    border-radius: 30px ;
+    margin-top: 20px;
+}
+
+#fotoüç{
+    padding: 0px;
+    margin-top: 20px;
+
+}
+
+#hizmetlerimiz {
+    display: flex;
+}
+
+
+#hizmetlerimiz .name{
+    font-family: 'Architects Daughter', cursive;
+    align-items: center;
+    padding: 85px;
+    margin-top: 0px
+}
+
+#altfotolar {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+#bir{
+    padding: 20px;
+    margin-top: 90px; 
+
+}
+
+#iki{
+    padding-right: 5px;
+    padding-left: 15px;
+    margin: 0rem;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#üç{
+    padding: 5px;
+    margin: 0rem;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#dört{
+    padding: 10px;
+    margin: 0rem;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+
+#beş{
+    padding-left: 5px;
+    padding-right: 10px;
+    margin: 0rem;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#altı{
+    padding: 20px;
+    margin-top: 90px;
+    flex-direction: row;
+    display: flex;
+}
+
+#kurumsal{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+
+}
+#dış {
+    padding: 20px;
+    border-radius: 60px;
+    margin-top: 20px;
+ }
+ 
+ #iç {
+    padding: 20px;
+    border-radius: 60px;
+    margin-top: 20px;
+     
+ }
+ 
+ #tarihçe {
+     padding: 10px;
+     margin-top: 20px;
+     margin-left: 5px;
+     margin-right: 5px;
+     border-radius: 30px;
+
+ }
+ 
+ #misyon {
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 30px;
+ }
+ 
+ #vizyon {
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 30px;
+ }
+
+ #kariyer {
+    display: flex;
+    justify-content: space-around;
+ 
+ }
+
+ #kariyer .name {
+    flex-direction: column;
+    margin: 70px;
+    margin-bottom: 90px;
+ }
+
+ #çalışanlar {
+    padding: 20px;
+    border-radius: 60px;
+    margin-top: 20px;
+    flex-direction: row;
+ }
+
+ #çalışanlar2{
+    padding: 20px;
+    border-radius: 60px;
+    margin-top: 20px;
+    flex-direction: row;
+ }
+ #ikonlar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ #harita {
+    padding-top: 20px;
+ }
+
+ #bizeulaşın{
+     background:#ff8608;
+     margin-top: 40px;
+     margin-bottom: 40px;
+
+ }
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+
+    
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .fa-instagram {
+    background: #da209c;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+#sosyalmedya {  
+    display: flex;
+    justify-content: center;
+    
+}
+
+#copyright {
+    color: #ff8608;
+    padding-top: 30px;
+    display: inline-block;
+    width: 50%;
+    margin-right: 0;
+    margin-left: 0;
+    
+}
+
+#copyright p{
+    display: inline-block;
+    float: right;
+    margin-bottom: 30px;
+}
+
+#sosyalmedya ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    align-self: center;
+    flex-direction: row;
+    
+}
+
+#sosyalmedya ul li {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#sosyalmedya ul li a:hover {
+    background: #ff8608;
+    border-radius: 30px ;
+    padding: 0rem 0.4rem;
+    
+}
